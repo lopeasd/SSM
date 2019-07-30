@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--  1.	namespace必需是接口的全路径名
+      2.	接口的方法名必需与映射文件的sql id一致
+      3.	接口的输入参数必需与映射文件的parameterType类型一致
+      4.	接口的返回类型必须与映射文件的resultType类型一致
+ -->
+<mapper namespace="com.review.mapper.OrderMapper">
+
+    <!-- 利用typeAliases设置了别名 -->
+    <select id="getOrderById" parameterType="int" resultType="Order">
+        select * from `Order` where id=#{id};
+    </select>
+
+    <!-- 设置了别名 -->
+    <select id="getOrderById" parameterType="int" resultType="Order">
+        select * from `Order` where id=#{id};
+    </select>
+
+    <select id="getOrder" resultType="com.learn.demo1.Order">
+        select * from `order`
+    </select>
+
+    <!-- 传入参数为hashMap (设置了别名)-->
+    <select id="getOrderByHashMap" parameterType="map" resultType="Order">
+        select * from `order` where id > #{id}
+    </select>
+
+    <!-- resultMap测试   id对应resultMap
+    id标签：指定主键,如果有多个，可以指定多个
+    -->
+    <select id="byResultMap" resultMap="byResultMap">
+        select * from `order`
+    </select>
+    <resultMap type="Order" id="byResultMap">
+        <id column="id" property="id"/>
+        <result column="user_id" property="user_id"/>
+        <result column="number" property="number"/>
+        <result column="createtime" property="createtime"/>
+        <result column="note" property="note"/>
+    </resultMap>
+
+    <insert id="insertOrder" parameterType="com.learn.demo1.Order">
+        insert into `order` values(null,#{user_id},#{number},#{createtime},#{note})
+    </insert>
+
+    <insert id="insertOrderKey" useGeneratedKeys="true" keyProperty="id" parameterType="com.learn.demo1.Order">
+        insert into `order` values(null,#{user_id},#{number},#{createtime},#{note})
+    </insert>
+
+</mapper>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace:配置名称空间，对配置的statement进行分类管理
+		此时名称可以任意
+		当使用Mapper代理时，namespace具有特殊的含义与功能
+ -->
+<mapper namespace="test">
+    <!-- id：可以通过id找到执行的statement，statement唯一标识 简称statementID，通常 第一个参数加上namespace
+        #{id}：其中的id可以表示输入参数的名称，如果是简单类型名称可以任意
+        ${}:拼接sql语句，如果是简单类型名称必须是value
+    -->
+
+    <select id="getUserById" parameterType="int" resultType="com.review.bean.User">
+        select *
+        from user
+        where id = #{id}
+    </select>
+
+    <select id="getUsers" resultType="com.review.bean.User">
+        select *
+        from user
+    </select>
+
+    <select id="getUserByName" parameterType="String" resultType="com.review.bean.User">
+        select *
+        from user
+        where username like #{name}
+    </select>
+
+    <select id="getCount" resultType="int">
+        select count(*)
+        from user;
+    </select>
+
+    <insert id="insertByUser" parameterType="com.review.bean.User">
+        insert into user
+        values (null, #{username}, #{birthday}, #{sex}, #{address})
+    </insert>
+
+
+    <!-- useGeneratedKeys:标识插入使用自增id
+		 keyProperty:与useGeneratedKeys配套使用，用于绑定主键接收的bean属性
+	 -->
+    <insert id="insertUserKey" useGeneratedKeys="true" keyProperty="id" parameterType="com.review.bean.User">
+        insert into user
+        values (null, #{username}, #{birthday}, #{sex}, #{address})
+    </insert>
+
+
+    <!-- selectKey:用于配置主键返回(位置在语句前后都不影响)
+             keyProperty：要绑定的bean属性
+             resultType:属性数据类型
+             order:指定什么时候执行，AFTER之后
+             resultType:属性数据类型
+                 -->
+    <insert id="insertUserKeySelect">
+
+        insert into user values(null,#{username},#{birthday},#{sex},#{address})
+        <selectKey keyProperty="id" order="AFTER" resultType="int">
+            SELECT LAST_INSERT_ID()
+        </selectKey>
+    </insert>
+
+
+    <!-- 动态sql ，if的使用
+    注意 要想使用 ==   仅仅需要将双引号和单引号的位置换一下即可!!!
+    例如： <if test=' username == "zhangsan" '>
+    或者 <if test="username='zhangsan'.toString()">
+    -->
+
+    <select id="findUserByName" parameterType="com.review.bean.User" resultType="com.review.bean.User">
+        select *
+        from `user`
+        where address='吉林大学'
+        <if test="username != null">
+            and username like #{username}
+        </if>
+    </select>
+
+    <!--动态sql，where和if的配合使用-->
+    <select id="findUserByWhere" parameterType="com.review.bean.User" resultType="com.review.bean.User">
+        select * from user
+        <where>
+            <if test="username != null">
+                and username like #{username}
+            </if>
+            <if test="address != null">
+                and address = #{address}
+            </if>
+        </where>
+    </select>
+
+    <!--动态SQL，choose标签-->
+    <select id="findUserByChoose" parameterType="com.review.bean.User" resultType="com.review.bean.User">
+        select * from `user`
+        <where>
+            <choose>
+                <when test="username != null">
+                    and username = #{username}
+                </when>
+                <when test="id > 30">
+                    and id > #{id}
+                </when>
+                <otherwise>
+                    and 1=1
+                </otherwise>
+            </choose>
+        </where>
+
+
+    </select>
+
+    <!--动态sql，forEach标签 list
+     parameterType中的list是mybatis中的别名，对应java中的List
+    Collection属性：
+    1. 如果传入的是单参数且参数类型是一个List的时候，collection属性值为list
+    2. 如果传入的是单参数且参数类型是一个array数组的时候，collection的属性值为array
+    3. 如果传入的参数是多个的时候，我们就需要把它们封装成一个Map了，
+    当然单参数也可item表示集合中每一个元素进行迭代时的别名，如下面的例子。
+
+    index指 定一个名字，用于表示在迭代过程中，每次迭代到的位置，
+    open表示该语句以什么开始，
+    separator表示在每次进行迭代之间以什么符号作为分隔 符，
+    close表示以什么结束。
+
+
+    -->
+    <select id="findUserEachList" parameterType="list" resultType="com.review.bean.User">
+        select * from `user`
+        <if test="list != null">
+            <where>
+                id in
+                <foreach collection="list" item="ha" index="index" open="(" separator="," close=")">
+                    #{ha}
+                </foreach>
+            </where>
+        </if>
+    </select>
+
+    <!--动态sql，forEach标签 map
+    parameterType=map  map是mybatis内置别名，对应java中的Map
+    Collection是获取这个键对应的值
+    item是从集合中获取的一个值(里面的值是任意取得,语句的值要和这个名字保持一致,#{ha}中的ha和item保持一致
+    否则取不出来在（全部取出）.这个名字是任意的)
+    index指 定一个名字，用于表示在迭代过程中，每次迭代到的位置
+    当使用 Map 对象（或者 Map.Entry 对象的集合）时，index 是键，item 是值。
+    -->
+    <select id="findUserEach" parameterType="map" resultType="com.review.bean.User">
+        select * from `user`
+        <if test="ids != null">
+            <where>
+                id in
+                <foreach collection="ids" item="ha" index="index" open="(" separator="," close=")">
+                    #{ha}
+                </foreach>
+            </where>
+        </if>
+    </select>
+
+    <!--动态sql，set标签
+    如果 set 包含的内容为空的话则会出错
+    -->
+    <select id="updateUser" parameterType="com.review.bean.User" resultType="com.review.bean.User">
+        update `user`
+        <set>
+            <if test="username == '测试' ">
+                username='子豪1'
+            </if>
+        </set>
+        where id = #{id}
+    </select>
+</mapper>

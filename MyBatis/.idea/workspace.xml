@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0e7dd460-4477-4295-8a0d-00865688997b" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mybatis@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mybatis@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="mybatis: database" type="23e365eb:GenericImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mybatis@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="mybatis: database" type="23e365eb:GenericImplModel$Database" />
+        <item name="#1: schema" type="255a0c4b:GenericImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mybatis@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="mybatis: database" type="23e365eb:GenericImplModel$Database" />
+        <item name="#1: schema" type="255a0c4b:GenericImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/review/bean/UserTest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="167" column="36" selection-start-line="167" selection-start-column="36" selection-end-line="167" selection-end-column="36" />
+              <folding>
+                <element signature="n#select#0;n#mapper#0;n#!!top" />
+                <element signature="n#select#1;n#mapper#0;n#!!top" />
+                <element signature="n#select#3;n#mapper#0;n#!!top" />
+                <element signature="n#insert#0;n#mapper#0;n#!!top" />
+                <element signature="e#1187#1278#0" />
+                <element signature="n#insert#1;n#mapper#0;n#!!top" />
+                <element signature="e#1502#1693#0" />
+                <element signature="n#insert#2;n#mapper#0;n#!!top" />
+                <element signature="e#1955#1985#0" />
+                <element signature="n#select#4;n#mapper#0;n#!!top" />
+                <element signature="n#select#5;n#mapper#0;n#!!top" />
+                <element signature="n#select#6;n#mapper#0;n#!!top" />
+                <element signature="e#3313#3700#0" />
+                <element signature="n#select#7;n#mapper#0;n#!!top" />
+                <element signature="e#4863#4891#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/test/TraditionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="228" column="20" selection-start-line="228" selection-start-column="20" selection-end-line="228" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;method#testGetUserById#0;class#TraditionTest#0" />
+                <element signature="method#testGetUserById#0;class#TraditionTest#0" />
+                <element signature="docComment;method#testGetUsers#0;class#TraditionTest#0" />
+                <element signature="method#testGetUsers#0;class#TraditionTest#0" />
+                <element signature="docComment;method#testGetUserByName#0;class#TraditionTest#0" />
+                <element signature="method#testGetUserByName#0;class#TraditionTest#0" />
+                <element signature="docComment;method#testGetCount#0;class#TraditionTest#0" />
+                <element signature="method#testGetCount#0;class#TraditionTest#0" />
+                <element signature="docComment;method#testInsertByUser#0;class#TraditionTest#0" />
+                <element signature="method#testInsertByUser#0;class#TraditionTest#0" />
+                <element signature="docComment;method#testInsertUserKey#0;class#TraditionTest#0" />
+                <element signature="method#testInsertUserKey#0;class#TraditionTest#0" />
+                <element signature="docComment;method#testInsertUserKeySelect#0;class#TraditionTest#0" />
+                <element signature="method#testInsertUserKeySelect#0;class#TraditionTest#0" />
+                <element signature="docComment;method#testFindUserByName#0;class#TraditionTest#0" />
+                <element signature="method#findUserByName#0;class#TraditionTest#0" />
+                <element signature="docComment;method#testFindUserByWhere#0;class#TraditionTest#0" />
+                <element signature="method#testFindUserByWhere#0;class#TraditionTest#0" />
+                <element signature="docComment;method#testFindUserBychoose#0;class#TraditionTest#0" />
+                <element signature="method#testFindUserBychoose#0;class#TraditionTest#0" />
+                <element signature="docComment;method#testfindUserEachList#0;class#TraditionTest#0" />
+                <element signature="method#testfindUserEachList#0;class#TraditionTest#0" />
+                <element signature="method#testfindUserEach#0;class#TraditionTest#0" />
+                <element signature="docComment;method#testupdateUser#0;class#TraditionTest#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/review/mapper/OrderMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+              <folding>
+                <element signature="n#insert#0;n#mapper#0;n#!!top" />
+                <element signature="n#insert#1;n#mapper#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>com.learn.demo1.User</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>com.review.bean.User</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/config/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/com/review/bean/User.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/20ec4984-ff17-4882-a934-31130f7db565/console.sql" />
+        <option value="$PROJECT_DIR$/src/config/SqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/src/com/review/test/Example.java" />
+        <option value="$PROJECT_DIR$/src/com/review/mapper/bean.java" />
+        <option value="$PROJECT_DIR$/src/com/review/mapper/bean/Order.java" />
+        <option value="$PROJECT_DIR$/src/com/review/tradition/test/Example.java" />
+        <option value="$PROJECT_DIR$/src/com/test/Example/Example.java" />
+        <option value="$PROJECT_DIR$/src/com/review/tradition/bean/Order.java" />
+        <option value="$PROJECT_DIR$/src/com/test/Example/MapperTest.java" />
+        <option value="$PROJECT_DIR$/src/com/test/Example/TraditionTest.java" />
+        <option value="$PROJECT_DIR$/src/com/util/SqlSessionFactoryUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/review/bean/User.java" />
+        <option value="$PROJECT_DIR$/config/SqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/config/traditionSqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/src/com/review/mapper/OrderMapper.java" />
+        <option value="$PROJECT_DIR$/config/mapperSqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/src/com/review/mapper/OrderMapper.xml" />
+        <option value="$PROJECT_DIR$/src/com/test/MapperTest.java" />
+        <option value="$PROJECT_DIR$/src/com/test/TraditionTest.java" />
+        <option value="$PROJECT_DIR$/src/com/review/bean/UserTest.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-15" />
+    <option name="y" value="119" />
+    <option name="width" value="1346" />
+    <option name="height" value="509" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MyBatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyBatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyBatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyBatis" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyBatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyBatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyBatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyBatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyBatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyBatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="review" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyBatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyBatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="review" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyBatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyBatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="review" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyBatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyBatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyBatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/config" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\SSM\MyBatis\config" />
+      <recent name="D:\Project\SSM\MyBatis\mapperconfig" />
+      <recent name="D:\Project\SSM\MyBatis" />
+      <recent name="D:\Project\SSM\MyBatis\src" />
+      <recent name="D:\Project\SSM\MyBatis\src\config" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.review.tradition.bean" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\SSM\MyBatis\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TraditionTest.testUpdateUser">
+    <configuration name="TraditionTest.testFindUserBychoose" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.TraditionTest" />
+      <option name="METHOD_NAME" value="testFindUserBychoose" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TraditionTest.testUpdateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.TraditionTest" />
+      <option name="METHOD_NAME" value="testUpdateUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TraditionTest.testfindUserEach" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.TraditionTest" />
+      <option name="METHOD_NAME" value="testfindUserEach" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TraditionTest.testfindUserEachList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.TraditionTest" />
+      <option name="METHOD_NAME" value="testfindUserEachList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TraditionTest.testupdateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.TraditionTest" />
+      <option name="METHOD_NAME" value="testupdateUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.0.52" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.52" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="MyBatis:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/MyBatis_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="MyBatis:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TraditionTest.testUpdateUser" />
+        <item itemvalue="JUnit.TraditionTest.testfindUserEach" />
+        <item itemvalue="JUnit.TraditionTest.testupdateUser" />
+        <item itemvalue="JUnit.TraditionTest.testfindUserEachList" />
+        <item itemvalue="JUnit.TraditionTest.testFindUserBychoose" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="NONE" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e7dd460-4477-4295-8a0d-00865688997b" name="Default Changelist" comment="" />
+      <created>1564129951432</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564129951432</updated>
+      <workItem from="1564129956092" duration="12045000" />
+      <workItem from="1564213585794" duration="10712000" />
+      <workItem from="1564235605067" duration="85000" />
+      <workItem from="1564246820917" duration="11000" />
+      <workItem from="1564248939179" duration="5497000" />
+      <workItem from="1564384472556" duration="25308000" />
+      <workItem from="1564474762568" duration="18860000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TraditionTest_testfindUserEach - 2019.07.30 at 21h 22m 36s.xml">
+      <configuration name="TraditionTest.testfindUserEach" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TraditionTest_testfindUserEach - 2019.07.30 at 21h 24m 48s.xml">
+      <configuration name="TraditionTest.testfindUserEach" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TraditionTest_testfindUserEach - 2019.07.30 at 21h 25m 15s.xml">
+      <configuration name="TraditionTest.testfindUserEach" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TraditionTest_testUpdateUser - 2019.07.30 at 21h 32m 47s.xml">
+      <configuration name="TraditionTest.testUpdateUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TraditionTest_testUpdateUser - 2019.07.30 at 21h 33m 38s.xml">
+      <configuration name="TraditionTest.testUpdateUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TraditionTest_testUpdateUser - 2019.07.30 at 21h 37m 09s.xml">
+      <configuration name="TraditionTest.testUpdateUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TraditionTest_testUpdateUser - 2019.07.30 at 21h 38m 01s.xml">
+      <configuration name="TraditionTest.testUpdateUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TraditionTest_testUpdateUser - 2019.07.30 at 21h 38m 27s.xml">
+      <configuration name="TraditionTest.testUpdateUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TraditionTest_testUpdateUser - 2019.07.30 at 21h 46m 41s.xml">
+      <configuration name="TraditionTest.testUpdateUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TraditionTest_testUpdateUser - 2019.07.30 at 21h 48m 22s.xml">
+      <configuration name="TraditionTest.testUpdateUser" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="72518000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="UI Designer" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Web" order="4" sideWeight="0.5008489" side_tool="true" weight="0.22865854" />
+      <window_info id="Designer" order="5" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.4991511" visible="true" weight="0.20731707" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.3786078" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.20373514" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.3293718" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" weight="0.3293718" />
+      <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.3293718" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.3293718" />
+      <window_info active="true" anchor="bottom" id="Run" order="11" visible="true" weight="0.37691003" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.3803056" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="15" weight="0.3293718" />
+      <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" order="0" side_tool="true" weight="0.3292683" />
+      <window_info anchor="right" id="Palette" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Database" order="3" weight="0.17682926" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="right" id="Structure" order="10" sideWeight="0.5008489" side_tool="true" weight="0.31021342" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="UI Designer" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Web" order="4" sideWeight="0.5008489" side_tool="true" weight="0.22865854" />
+      <window_info id="Designer" order="5" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.4991511" weight="0.20121951" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.3786078" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.20373514" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.3293718" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" weight="0.3293718" />
+      <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.3293718" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.3293718" />
+      <window_info active="true" anchor="bottom" id="Run" order="11" visible="true" weight="0.5212224" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.25466892" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="15" weight="0.3293718" />
+      <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" order="0" side_tool="true" weight="0.3292683" />
+      <window_info anchor="right" id="Palette" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Database" order="3" weight="0.17682926" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="right" id="Structure" order="10" sideWeight="0.5008489" side_tool="true" weight="0.31021342" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/review/bean.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/review/test.java" />
+    <entry file="file://$PROJECT_DIR$/src/config/mysql.properties" />
+    <entry file="jar://D:/repository/org/mybatis/mybatis/3.4.2/mybatis-3.4.2.jar!/org/apache/ibatis/io/Resources.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-194">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d8665c63-8447-4ec9-963e-097d63f4eca1/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/20ec4984-ff17-4882-a934-31130f7db565/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/20ec4984-ff17-4882-a934-31130f7db565/console_2.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/20ec4984-ff17-4882-a934-31130f7db565/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://48b0651c-f6f4-4c0f-860f-99824d9e576f/database/mybatis/schema/&amp;empty;@#1/view/test">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="700811e8-4ab2-4443-a4b1-92bba4e976db">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/48b0651c-f6f4-4c0f-860f-99824d9e576f/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://48b0651c-f6f4-4c0f-860f-99824d9e576f/database/mybatis/schema/&amp;empty;@#1/table/student">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="700811e8-4ab2-4443-a4b1-92bba4e976db">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk1.8.0_40/src.zip!/java/nio/file/Paths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-724">
+          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/SqlMapConfig.xml" />
+    <entry file="file://$PROJECT_DIR$/src/com/review/mapper/bean.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/review/mapper/bean/Order.java" />
+    <entry file="file://$PROJECT_DIR$/config1/log4j.properties" />
+    <entry file="file://$PROJECT_DIR$/config1/SqlMapConfig.xml" />
+    <entry file="file://$PROJECT_DIR$/src/config/log4j.properties" />
+    <entry file="file://$PROJECT_DIR$/mapperconfig/log4j.properties" />
+    <entry file="jar://D:/repository/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar!/com/mysql/jdbc/Driver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#525#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/review/bean/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/mysql.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/org/mybatis/mybatis/3.4.2/mybatis-3.4.2.jar!/org/apache/ibatis/session/SqlSession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1165">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/org/mybatis/mybatis/3.4.2/mybatis-3.4.2.jar!/org/apache/ibatis/session/SqlSessionFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/org/mybatis/mybatis/3.4.2/mybatis-3.4.2.jar!/org/apache/ibatis/session/defaults/DefaultSqlSessionFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2175">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/util/SqlSessionFactoryUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="29" column="84" selection-start-line="29" selection-start-column="84" selection-end-line="29" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#SqlSessionFactoryUtils#0;class#SqlSessionFactoryUtils#0" />
+            <element signature="e#1188#1189#0" expanded="true" />
+            <element signature="e#1228#1229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/org/mybatis/mybatis/3.4.2/mybatis-3.4.2.jar!/org/apache/ibatis/builder/xml/mybatis-3-mapper.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3950">
+          <caret line="13" column="59" lean-forward="true" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/org/mybatis/mybatis/3.4.2/mybatis-3.4.2.jar!/org/apache/ibatis/builder/xml/mybatis-3-config.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/org/mybatis/mybatis/3.4.2/mybatis-3.4.2.jar!/org/apache/ibatis/session/SqlSessionFactoryBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="57" column="59" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/SqlMapConfig.xml" />
+    <entry file="jar://D:/java/jdk1.8.0_40/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="342" column="30" selection-start-line="342" selection-start-column="30" selection-end-line="342" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/review/mapper/OrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/mapperSqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://48b0651c-f6f4-4c0f-860f-99824d9e576f/database/mybatis/schema/&amp;empty;@#1/table/order">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="8cad6f9b-1fd6-4806-88a0-a383d309ad17">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://48b0651c-f6f4-4c0f-860f-99824d9e576f/database/mybatis/schema/&amp;empty;@#1/table/class">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="8cad6f9b-1fd6-4806-88a0-a383d309ad17">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://48b0651c-f6f4-4c0f-860f-99824d9e576f/database/mybatis/schema/&amp;empty;@#1/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="8cad6f9b-1fd6-4806-88a0-a383d309ad17">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://48b0651c-f6f4-4c0f-860f-99824d9e576f/database/mybatis/schema/&amp;empty;@#1/table/teacher">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="8cad6f9b-1fd6-4806-88a0-a383d309ad17">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/traditionSqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/review/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="e#356#357#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/MapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/review/mapper/OrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="n#insert#0;n#mapper#0;n#!!top" />
+            <element signature="n#insert#1;n#mapper#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/TraditionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="228" column="20" selection-start-line="228" selection-start-column="20" selection-end-line="228" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#testGetUserById#0;class#TraditionTest#0" />
+            <element signature="method#testGetUserById#0;class#TraditionTest#0" />
+            <element signature="docComment;method#testGetUsers#0;class#TraditionTest#0" />
+            <element signature="method#testGetUsers#0;class#TraditionTest#0" />
+            <element signature="docComment;method#testGetUserByName#0;class#TraditionTest#0" />
+            <element signature="method#testGetUserByName#0;class#TraditionTest#0" />
+            <element signature="docComment;method#testGetCount#0;class#TraditionTest#0" />
+            <element signature="method#testGetCount#0;class#TraditionTest#0" />
+            <element signature="docComment;method#testInsertByUser#0;class#TraditionTest#0" />
+            <element signature="method#testInsertByUser#0;class#TraditionTest#0" />
+            <element signature="docComment;method#testInsertUserKey#0;class#TraditionTest#0" />
+            <element signature="method#testInsertUserKey#0;class#TraditionTest#0" />
+            <element signature="docComment;method#testInsertUserKeySelect#0;class#TraditionTest#0" />
+            <element signature="method#testInsertUserKeySelect#0;class#TraditionTest#0" />
+            <element signature="docComment;method#testFindUserByName#0;class#TraditionTest#0" />
+            <element signature="method#findUserByName#0;class#TraditionTest#0" />
+            <element signature="docComment;method#testFindUserByWhere#0;class#TraditionTest#0" />
+            <element signature="method#testFindUserByWhere#0;class#TraditionTest#0" />
+            <element signature="docComment;method#testFindUserBychoose#0;class#TraditionTest#0" />
+            <element signature="method#testFindUserBychoose#0;class#TraditionTest#0" />
+            <element signature="docComment;method#testfindUserEachList#0;class#TraditionTest#0" />
+            <element signature="method#testfindUserEachList#0;class#TraditionTest#0" />
+            <element signature="method#testfindUserEach#0;class#TraditionTest#0" />
+            <element signature="docComment;method#testupdateUser#0;class#TraditionTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/review/bean/UserTest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="167" column="36" selection-start-line="167" selection-start-column="36" selection-end-line="167" selection-end-column="36" />
+          <folding>
+            <element signature="n#select#0;n#mapper#0;n#!!top" />
+            <element signature="n#select#1;n#mapper#0;n#!!top" />
+            <element signature="n#select#3;n#mapper#0;n#!!top" />
+            <element signature="n#insert#0;n#mapper#0;n#!!top" />
+            <element signature="e#1187#1278#0" />
+            <element signature="n#insert#1;n#mapper#0;n#!!top" />
+            <element signature="e#1502#1693#0" />
+            <element signature="n#insert#2;n#mapper#0;n#!!top" />
+            <element signature="e#1955#1985#0" />
+            <element signature="n#select#4;n#mapper#0;n#!!top" />
+            <element signature="n#select#5;n#mapper#0;n#!!top" />
+            <element signature="n#select#6;n#mapper#0;n#!!top" />
+            <element signature="e#3313#3700#0" />
+            <element signature="n#select#7;n#mapper#0;n#!!top" />
+            <element signature="e#4863#4891#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>MyBatis:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>MyBatis</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
